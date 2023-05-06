@@ -1,0 +1,53 @@
+.dottedBorderLine{
+    width: 98%;
+    height: 1px;
+    margin: 0 auto;
+    border: 1px dashed rgb(154, 154, 154);
+}
+input{
+    cursor: pointer;
+}
+.style{
+    border: 1px dashed rgb(154, 154, 154);
+    border-radius: 15px;
+}
+.addbtn{
+    border:  1px solid rgb(31, 31, 99);
+    margin-left: 25px;
+}
+.s{
+    border: none;
+}
+select{
+    cursor: pointer;
+}
+.none{
+    display: none;
+}
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+.inputfile + label {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    display: inline-block;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+    background-color: red;
+}
+.inputfile + label {
+	cursor: pointer; /* "hand" cursor */
+}
+.inputfile:focus + label {
+	outline: 1px dotted #000;
+	outline: -webkit-focus-ring-color auto 5px;
+}

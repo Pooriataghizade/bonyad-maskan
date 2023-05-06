@@ -1,0 +1,20 @@
+.bodyOfLogin{
+    background-image: url(../assets/img/darkMainBg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 113.5vh;
+}   
+@media (max-width:780px) {
+    .bodyOfLogin{
+        height: 115.5vh;
+    }
+}
+.box{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , 50%);
+    width: 500px;
+    padding: 1rem;
+}

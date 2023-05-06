@@ -1,0 +1,10 @@
+@media (max-width:370px) {
+        .logoNav{
+            justify-content: center;
+            margin: 0 auto;
+        }
+        .navItems{
+            /* justify-content: space-between; */
+            margin: 0 auto;
+        }
+}

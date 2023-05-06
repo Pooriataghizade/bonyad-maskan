@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+
+@font-face {
+    font-family: yekanThin;
+    src:local("yekanThin"),
+    url(assets/yekanBakh/YekanBakh-Thin.ttf)
+    format("truetype");
+    font-weight: 100;
+}
+@font-face {
+    font-family: yekanRegul;
+    src:local("YekanBakh-Regularl"),
+    url(assets/yekanBakh/YekanBakh-Regular.ttf)
+    format("truetype");
+    font-weight: 200;
+}
+@font-face {
+    font-family: yekanBold;
+    src:local("YekanBakh-Bold"),
+    url(assets/yekanBakh/YekanBakh-Bold.ttf)
+    format("truetype");
+    font-weight: 500;
+}
+@font-face {
+    font-family: yekanHair;
+    src:local("YekanBakh-Hairline"),
+    url(assets/yekanBakh/YekanBakh-Hairline.ttf)
+    format("truetype");
+    font-weight: 300;
+}

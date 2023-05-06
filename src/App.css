@@ -1,0 +1,22 @@
+.fontReg {
+    font-family: "yekanRegul";
+}
+.fontThin {
+    font-family: "yekanThin";
+}
+.fontBold{
+    font-family: "yekanBold";
+}
+.fontHair{
+    font-family: "yekanHair";
+}
+body {
+    background-color: #EBEBEB !important;
+}
+.leaflet-container{
+    width: 900px;
+    height: 300px;
+    justify-content: center;
+    display: flex;
+    border-radius: 15px;
+}
